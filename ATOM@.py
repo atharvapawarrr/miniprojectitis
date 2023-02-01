@@ -108,5 +108,4 @@ if __name__=='__main__':
             speak('Current time is' + time)
         elif 'joke' in statement:
             speak(pyjokes.get_joke())
-        else:
-            speak('Please say the command again.')
+       
